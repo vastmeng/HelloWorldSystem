@@ -1,1 +1,1 @@
-{"appKeys": {"deviceDbKey": [{"group": "symmetricKeys"}], "streamApiKey": [{"group": "symmetricKeys"}]}, "symmetricKeys": {"undefined": {}}}
+{"appKeys": {"deviceDbKey": [{"group": "symmetricKeys", "name": "HJ84RKAR4S"}], "streamApiKey": [{"group": "symmetricKeys", "name": "cDSbnBY4i"}]}, "symmetricKeys": {"HJ84RKAR4S": {"expiration": "0", "key": "0", "secret": "0"}, "cDSbnBY4i": {"expiration": "0", "key": "0", "secret": "0"}, "undefined": {}}}
