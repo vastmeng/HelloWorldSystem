@@ -1,0 +1,11 @@
+---
+apiVersion: thingswise.com/v1
+kind: package
+spec:
+  categories: []
+  keys:
+  - i18n: {zh-cn: 设备}
+    name: equipment
+  - i18n: {zh-cn: 车间}
+    name: workshop
+  name: Test01

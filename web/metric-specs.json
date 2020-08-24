@@ -1,0 +1,238 @@
+{
+  "metricSpecs": {
+    "lufu.section5_1": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}Furnace_Blast"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_1"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_1 (lufu)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_1"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": "",
+      "valueType": "number:statistics"
+    },
+    "lufu.section5_2": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}Furnace_Blast"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_2"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_2 (lufu)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_2"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": "",
+      "valueType": "number:statistics"
+    },
+    "lufu.section5_3": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}Furnace_Blast"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_3"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_3 (lufu)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_3"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": "",
+      "valueType": "number:statistics"
+    },
+    "lufu.section5_4": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}Furnace_Blast"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_4"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_4 (lufu)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_4"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": "",
+      "valueType": "number:statistics"
+    },
+    "lufu.section5_5": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}Furnace_Blast"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_5"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_5 (lufu)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_5"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": "",
+      "valueType": "number:statistics"
+    },
+    "lufu.section5_6": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}Furnace_Blast"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_6"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_6 (lufu)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_6"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": "",
+      "valueType": "number:statistics"
+    }
+  }
+}

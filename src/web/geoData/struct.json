@@ -1,0 +1,32 @@
+{
+  "name": "workshop1",
+  "i18n": {
+    "en-US": "",
+    "zh-CN": ""
+  },
+  "equipment": {
+    "Furnace1": {
+      "name": "Furnace1",
+      "i18n": {
+        "en-US": "",
+        "zh-CN": ""
+      },
+      "class": [
+        {
+          "fqn": "{Test01}Furnace_Blast",
+          "i18n": {
+            "zh-CN": "高炉"
+          }
+        }
+      ]
+    }
+  },
+  "class": [
+    {
+      "fqn": "{Test01}workshop",
+      "i18n": {
+        "zh-CN": "车间"
+      }
+    }
+  ]
+}

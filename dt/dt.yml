@@ -1,0 +1,10 @@
+collate_search: false
+mixins:
+- fields:
+    class: string
+    equipment: string
+    workshop: string
+  name: Lookup
+- name: Test01___Furnace_Blast__Basic
+- name: Test01___Furnace_Blast__lufu
+- name: Test01___workshop__Basic

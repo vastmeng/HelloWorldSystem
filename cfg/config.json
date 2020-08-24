@@ -1,0 +1,277 @@
+{
+  "apiVersion": "thingswise.com/v1",
+  "categories": {},
+  "labels": {},
+  "model_hierarchy": [
+    {
+      "i18n": {
+        "zh-cn": "\u8f66\u95f4"
+      },
+      "keys": [
+        "workshop"
+      ],
+      "models": [
+        "{Test01}workshop"
+      ]
+    },
+    {
+      "i18n": {
+        "zh-cn": "\u8bbe\u5907"
+      },
+      "keys": [
+        "equipment"
+      ],
+      "models": [
+        "{Test01}Furnace_Blast"
+      ]
+    }
+  ],
+  "models": {
+    "{Test01}Furnace_Blast": {
+      "key": "equipment",
+      "label": {
+        "i18n": {
+          "zh-CN": "\u9ad8\u7089"
+        }
+      },
+      "level": 1,
+      "lookups": [
+        {
+          "lookup_domain": "Lookup",
+          "lookup_field": "equipment",
+          "name": "default"
+        }
+      ],
+      "operational_domains": {
+        "lufu": {
+          "fields": [
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 2,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "label": {
+                "i18n": {
+                  "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_1"
+                }
+              },
+              "name": "lufu.section5_1",
+              "original_name": "section5_1",
+              "policy": "drop-field",
+              "resolution": [
+                "5s"
+              ],
+              "timeseries": true,
+              "type": "number"
+            },
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 2,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "label": {
+                "i18n": {
+                  "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_2"
+                }
+              },
+              "name": "lufu.section5_2",
+              "original_name": "section5_2",
+              "policy": "drop-field",
+              "resolution": [
+                "5s"
+              ],
+              "timeseries": true,
+              "type": "number"
+            },
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 2,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "label": {
+                "i18n": {
+                  "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_3"
+                }
+              },
+              "name": "lufu.section5_3",
+              "original_name": "section5_3",
+              "policy": "drop-field",
+              "resolution": [
+                "5s"
+              ],
+              "timeseries": true,
+              "type": "number"
+            },
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 2,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "label": {
+                "i18n": {
+                  "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_4"
+                }
+              },
+              "name": "lufu.section5_4",
+              "original_name": "section5_4",
+              "policy": "drop-field",
+              "resolution": [
+                "5s"
+              ],
+              "timeseries": true,
+              "type": "number"
+            },
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 2,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "label": {
+                "i18n": {
+                  "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_5"
+                }
+              },
+              "name": "lufu.section5_5",
+              "original_name": "section5_5",
+              "policy": "drop-field",
+              "resolution": [
+                "5s"
+              ],
+              "timeseries": true,
+              "type": "number"
+            },
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 2,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "label": {
+                "i18n": {
+                  "zh-CN": "\u7089\u8179(\u7b2c5\u6bb5)_6"
+                }
+              },
+              "name": "lufu.section5_6",
+              "original_name": "section5_6",
+              "policy": "drop-field",
+              "resolution": [
+                "5s"
+              ],
+              "timeseries": true,
+              "type": "number"
+            }
+          ],
+          "mangled_name": "Test01___Furnace_Blast__lufu"
+        }
+      },
+      "primary_domains": {
+        "Basic": {
+          "fields": [
+            {
+              "category": [],
+              "default_value": "0",
+              "index": false,
+              "name": "Name",
+              "resolution": [],
+              "type": "string"
+            }
+          ],
+          "kind": "metadata",
+          "mangled_name": "Test01___Furnace_Blast__Basic"
+        },
+        "Lookup": {
+          "fields": [
+            {
+              "category": [],
+              "index": true,
+              "name": "workshop",
+              "resolution": [],
+              "type": "string"
+            },
+            {
+              "category": [],
+              "index": true,
+              "name": "equipment",
+              "resolution": [],
+              "type": "string"
+            }
+          ],
+          "kind": "lookup",
+          "mangled_name": "Lookup"
+        }
+      },
+      "rollup": true,
+      "scope": "{Test01}workshop",
+      "secondary_domains": {},
+      "superclass": [],
+      "tags": [],
+      "timezone": "Asia/Shanghai"
+    },
+    "{Test01}workshop": {
+      "key": "workshop",
+      "label": {
+        "i18n": {
+          "zh-CN": "\u8f66\u95f4"
+        }
+      },
+      "level": 0,
+      "lookups": [
+        {
+          "lookup_domain": "Lookup",
+          "lookup_field": "workshop",
+          "name": "default"
+        }
+      ],
+      "operational_domains": {},
+      "primary_domains": {
+        "Basic": {
+          "fields": [
+            {
+              "category": [],
+              "default_value": "0",
+              "index": false,
+              "name": "Name",
+              "resolution": [],
+              "type": "string"
+            }
+          ],
+          "kind": "metadata",
+          "mangled_name": "Test01___workshop__Basic"
+        },
+        "Lookup": {
+          "fields": [
+            {
+              "category": [],
+              "index": true,
+              "name": "workshop",
+              "resolution": [],
+              "type": "string"
+            }
+          ],
+          "kind": "lookup",
+          "mangled_name": "Lookup"
+        }
+      },
+      "rollup": true,
+      "secondary_domains": {},
+      "superclass": [],
+      "tags": [],
+      "timezone": "Asia/Shanghai"
+    }
+  },
+  "project": {
+    "lookups_enabled": false,
+    "name": "project04"
+  }
+}

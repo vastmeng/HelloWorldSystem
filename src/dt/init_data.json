@@ -1,0 +1,81 @@
+{
+  "workshop1": {
+    "scope": "",
+    "mixins": {
+      "Lookup": {
+        "class": "{Test01}workshop",
+        "workshop": "workshop1"
+      }
+    },
+    "groups": [
+      {
+        "id": "Admin",
+        "name": "Admin",
+        "permissions": {
+          "workshop1": [
+            "READ:*",
+            "WRITE:*",
+            "yoi:_admin"
+          ]
+        },
+        "i18n": {
+          "zh-CN": "管理员",
+          "en-US": "Administrator"
+        }
+      },
+      {
+        "id": "User",
+        "name": "User",
+        "permissions": {
+          "workshop1": [
+            "READ:*"
+          ]
+        },
+        "i18n": {
+          "zh-CN": "用户",
+          "en-US": "User"
+        }
+      }
+    ]
+  },
+  "workshop1|Furnace1": {
+    "scope": "workshop1",
+    "mixins": {
+      "Lookup": {
+        "class": "{Test01}Furnace_Blast",
+        "equipment": "Furnace1",
+        "workshop": "workshop1"
+      }
+    },
+    "groups": [
+      {
+        "id": "Admin",
+        "name": "Admin",
+        "permissions": {
+          "workshop1|Furnace1": [
+            "READ:*",
+            "WRITE:*",
+            "yoi:_admin"
+          ]
+        },
+        "i18n": {
+          "zh-CN": "管理员",
+          "en-US": "Administrator"
+        }
+      },
+      {
+        "id": "User",
+        "name": "User",
+        "permissions": {
+          "workshop1|Furnace1": [
+            "READ:*"
+          ]
+        },
+        "i18n": {
+          "zh-CN": "用户",
+          "en-US": "User"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "lufu.section5_1": {
+    "category": "",
+    "name": {
+      "i18n": {
+        "zh-CN": "炉腹(第5段)_1",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": null
+  },
+  "lufu.section5_2": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "炉腹(第5段)_2",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": null
+  },
+  "lufu.section5_3": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "炉腹(第5段)_3",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": null
+  },
+  "lufu.section5_4": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "炉腹(第5段)_4",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": null
+  },
+  "lufu.section5_5": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "炉腹(第5段)_5",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": null
+  },
+  "lufu.section5_6": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "炉腹(第5段)_6",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": null
+  }
+}

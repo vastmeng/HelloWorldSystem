@@ -1,0 +1,14 @@
+{
+  "{Test01}Furnace_Blast": {
+    "Test01___Furnace_Blast.lufu_input_csv": {
+      "domain": "lufu",
+      "stream": "Test01___Furnace_Blast.lufu_input",
+      "type": "csv"
+    },
+    "Test01___Furnace_Blast.lufu_input_json": {
+      "domain": "lufu",
+      "stream": "Test01___Furnace_Blast.lufu_input",
+      "type": "json"
+    }
+  }
+}

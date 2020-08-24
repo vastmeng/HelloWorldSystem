@@ -1,0 +1,122 @@
+---
+apiVersion: thingswise.com/v1
+kind: entity
+metadata:
+  label:
+    i18n: {zh-CN: 高炉}
+spec:
+  class: Furnace_Blast
+  key: equipment
+  lookups:
+  - {lookup_domain: Lookup, lookup_field: equipment, name: default}
+  rollup: true
+  scope: workshop
+  superclass: []
+  tags: []
+  timezone: Asia/Shanghai
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: Furnace_Blast
+  fields:
+  - category: []
+    index: true
+    name: workshop
+    type: string
+  - category: []
+    index: true
+    name: equipment
+    type: string
+  kind: lookup
+  name: Lookup
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: Furnace_Blast
+  fields:
+  - category: []
+    default_value: '0'
+    name: Name
+    type: string
+  name: Basic
+---
+apiVersion: thingswise.com/v1
+kind: operationalDataDomain
+spec:
+  class: Furnace_Blast
+  fields:
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 炉腹(第5段)_1}
+    name: lufu.section5_1
+    original_name: section5_1
+    resolution: [5s]
+    timeseries: true
+    type: number
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 炉腹(第5段)_2}
+    name: lufu.section5_2
+    original_name: section5_2
+    resolution: [5s]
+    timeseries: true
+    type: number
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 炉腹(第5段)_3}
+    name: lufu.section5_3
+    original_name: section5_3
+    resolution: [5s]
+    timeseries: true
+    type: number
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 炉腹(第5段)_4}
+    name: lufu.section5_4
+    original_name: section5_4
+    resolution: [5s]
+    timeseries: true
+    type: number
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 炉腹(第5段)_5}
+    name: lufu.section5_5
+    original_name: section5_5
+    resolution: [5s]
+    timeseries: true
+    type: number
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 炉腹(第5段)_6}
+    name: lufu.section5_6
+    original_name: section5_6
+    resolution: [5s]
+    timeseries: true
+    type: number
+  name: lufu

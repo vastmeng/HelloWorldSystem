@@ -1,0 +1,38 @@
+---
+apiVersion: thingswise.com/v1
+kind: entity
+metadata:
+  label:
+    i18n: {zh-CN: 车间}
+spec:
+  class: workshop
+  key: workshop
+  lookups:
+  - {lookup_domain: Lookup, lookup_field: workshop, name: default}
+  rollup: true
+  superclass: []
+  tags: []
+  timezone: Asia/Shanghai
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: workshop
+  fields:
+  - category: []
+    index: true
+    name: workshop
+    type: string
+  kind: lookup
+  name: Lookup
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: workshop
+  fields:
+  - category: []
+    default_value: '0'
+    name: Name
+    type: string
+  name: Basic
