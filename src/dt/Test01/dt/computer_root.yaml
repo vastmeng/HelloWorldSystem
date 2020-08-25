@@ -32,6 +32,13 @@ spec:
   name: Lookup
 ---
 apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: computer_root
+  fields: []
+  name: Basic
+---
+apiVersion: thingswise.com/v1
 kind: operationalDataDomain
 spec:
   class: computer_root

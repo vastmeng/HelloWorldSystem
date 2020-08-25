@@ -491,6 +491,11 @@
         }
       },
       "primary_domains": {
+        "Basic": {
+          "fields": [],
+          "kind": "metadata",
+          "mangled_name": "Test01___computer_root__Basic"
+        },
         "Lookup": {
           "fields": [
             {
