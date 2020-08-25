@@ -1,5 +1,392 @@
 {
   "metricSpecs": {
+    "WS_JF.WS_JF_CityElectricity_A": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535A\u76f8\u7535\u538b"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535A\u76f8\u7535\u538b (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535A\u76f8\u7535\u538b"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "V"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_CityElectricity_B": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535B\u76f8\u7535\u538b"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535B\u76f8\u7535\u538b (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535B\u76f8\u7535\u538b"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "V"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_CityElectricity_C": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535C\u76f8\u7535\u538b"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535C\u76f8\u7535\u538b (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u5e02\u7535C\u76f8\u7535\u538b"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "v"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_HUMIDITY_1": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e7f\u5ea61"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e7f\u5ea61 (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e7f\u5ea61"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "%"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_HUMIDITY_2": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e7f\u5ea62"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e7f\u5ea62 (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e7f\u5ea62"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "%"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_TEMPERATURE_1": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e29\u5ea61"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e29\u5ea61 (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e29\u5ea61"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "\u2103"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_TEMPERATURE_2": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e29\u5ea62"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e29\u5ea62 (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "\u673a\u623f\u6e29\u5ea62"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "\u2103"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_UPS_INPUTVOLTAGE": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "UPS\u8f93\u5165\u7535\u538b"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "UPS\u8f93\u5165\u7535\u538b (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "UPS\u8f93\u5165\u7535\u538b"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "V"
+        }
+      },
+      "valueType": "number:statistics"
+    },
+    "WS_JF.WS_JF_UPS_OUTPUTVOLTAGE": {
+      "decimal": 2,
+      "default-stats": "avg",
+      "hierarchy": [
+        "workshop|equipment"
+      ],
+      "model": [
+        "{Test01}computer_root"
+      ],
+      "name": {
+        "i18n": {
+          "zh-CN": "UPS\u8f93\u51fa\u7535\u538b"
+        }
+      },
+      "nameWithDomain": {
+        "i18n": {
+          "zh-CN": "UPS\u8f93\u51fa\u7535\u538b (WS_JF)"
+        }
+      },
+      "note": {
+        "i18n": {
+          "zh-CN": "UPS\u8f93\u51fa\u7535\u538b"
+        }
+      },
+      "querySpecs": {
+        "timeseries": {
+          "workshop": {
+            "equipment": {
+              "periods": [
+                "5s"
+              ]
+            }
+          }
+        }
+      },
+      "timezone": "Asia/Shanghai",
+      "unit": {
+        "i18n": {
+          "zh-cn": "V"
+        }
+      },
+      "valueType": "number:statistics"
+    },
     "lufu.section5_1": {
       "decimal": 2,
       "default-stats": "avg",

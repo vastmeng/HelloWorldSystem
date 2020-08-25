@@ -7,4 +7,5 @@ mixins:
   name: Lookup
 - name: Test01___Furnace_Blast__Basic
 - name: Test01___Furnace_Blast__lufu
+- name: Test01___computer_root__WS_JF
 - name: Test01___workshop__Basic

@@ -10,5 +10,17 @@
       "stream": "Test01___Furnace_Blast.lufu_input",
       "type": "json"
     }
+  },
+  "{Test01}computer_root": {
+    "Test01___computer_root.WS_JF_input_csv": {
+      "domain": "WS_JF",
+      "stream": "Test01___computer_root.WS_JF_input",
+      "type": "csv"
+    },
+    "Test01___computer_root.WS_JF_input_json": {
+      "domain": "WS_JF",
+      "stream": "Test01___computer_root.WS_JF_input",
+      "type": "json"
+    }
   }
 }

@@ -1,0 +1,171 @@
+---
+apiVersion: thingswise.com/v1
+kind: entity
+metadata:
+  label:
+    i18n: {zh-CN: 计算机机房}
+spec:
+  class: computer_root
+  key: equipment
+  lookups:
+  - {lookup_domain: Lookup, lookup_field: equipment, name: default}
+  rollup: true
+  scope: workshop
+  superclass: []
+  tags: []
+  timezone: Asia/Shanghai
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: computer_root
+  fields:
+  - category: []
+    index: true
+    name: workshop
+    type: string
+  - category: []
+    index: true
+    name: equipment
+    type: string
+  kind: lookup
+  name: Lookup
+---
+apiVersion: thingswise.com/v1
+kind: operationalDataDomain
+spec:
+  class: computer_root
+  fields:
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房市电A相电压}
+    name: WS_JF.WS_JF_CityElectricity_A
+    note:
+      i18n: {zh-CN: 机房市电A相电压}
+    original_name: WS_JF_CityElectricity_A
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: V}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房市电B相电压}
+    name: WS_JF.WS_JF_CityElectricity_B
+    note:
+      i18n: {zh-CN: 机房市电B相电压}
+    original_name: WS_JF_CityElectricity_B
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: V}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房市电C相电压}
+    name: WS_JF.WS_JF_CityElectricity_C
+    note:
+      i18n: {zh-CN: 机房市电C相电压}
+    original_name: WS_JF_CityElectricity_C
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: v}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: UPS输入电压}
+    name: WS_JF.WS_JF_UPS_INPUTVOLTAGE
+    original_name: WS_JF_UPS_INPUTVOLTAGE
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: V}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: UPS输出电压}
+    name: WS_JF.WS_JF_UPS_OUTPUTVOLTAGE
+    original_name: WS_JF_UPS_OUTPUTVOLTAGE
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: V}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房温度1}
+    name: WS_JF.WS_JF_TEMPERATURE_1
+    original_name: WS_JF_TEMPERATURE_1
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: ℃}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房温度2}
+    name: WS_JF.WS_JF_TEMPERATURE_2
+    original_name: WS_JF_TEMPERATURE_2
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: ℃}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房湿度1}
+    name: WS_JF.WS_JF_HUMIDITY_1
+    original_name: WS_JF_HUMIDITY_1
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: '%'}
+  - aggregated: false
+    category: []
+    decimals: 2
+    default_stats: avg
+    kind: direct
+    label:
+      i18n: {zh-CN: 机房湿度2}
+    name: WS_JF.WS_JF_HUMIDITY_2
+    original_name: WS_JF_HUMIDITY_2
+    resolution: [5s]
+    timeseries: true
+    type: number
+    unit:
+      i18n: {zh-cn: '%'}
+  name: WS_JF

@@ -19,6 +19,21 @@
           }
         }
       ]
+    },
+    "computer_room_ws": {
+      "name": "computer_room_ws",
+      "i18n": {
+        "en-US": "",
+        "zh-CN": ""
+      },
+      "class": [
+        {
+          "fqn": "{Test01}computer_root",
+          "i18n": {
+            "zh-CN": "计算机机房"
+          }
+        }
+      ]
     }
   },
   "class": [

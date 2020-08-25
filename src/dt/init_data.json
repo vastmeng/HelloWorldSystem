@@ -77,5 +77,45 @@
         }
       }
     ]
+  },
+  "workshop1|computer_room_ws": {
+    "scope": "workshop1",
+    "mixins": {
+      "Lookup": {
+        "class": "{Test01}computer_root",
+        "equipment": "computer_room_ws",
+        "workshop": "workshop1"
+      }
+    },
+    "groups": [
+      {
+        "id": "Admin",
+        "name": "Admin",
+        "permissions": {
+          "workshop1|computer_room_ws": [
+            "READ:*",
+            "WRITE:*",
+            "yoi:_admin"
+          ]
+        },
+        "i18n": {
+          "zh-CN": "管理员",
+          "en-US": "Administrator"
+        }
+      },
+      {
+        "id": "User",
+        "name": "User",
+        "permissions": {
+          "workshop1|computer_room_ws": [
+            "READ:*"
+          ]
+        },
+        "i18n": {
+          "zh-CN": "用户",
+          "en-US": "User"
+        }
+      }
+    ]
   }
 }
