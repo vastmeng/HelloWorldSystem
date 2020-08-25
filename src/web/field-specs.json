@@ -100,5 +100,194 @@
     },
     "decimal": 2,
     "unit": null
+  },
+  "WS_JF.WS_JF_CityElectricity_A": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房市电A相电压",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": "机房市电A相电压",
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "V"
+      }
+    }
+  },
+  "WS_JF.WS_JF_CityElectricity_B": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房市电B相电压",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": "机房市电B相电压",
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "V"
+      }
+    }
+  },
+  "WS_JF.WS_JF_CityElectricity_C": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房市电C相电压",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": "机房市电C相电压",
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "v"
+      }
+    }
+  },
+  "WS_JF.WS_JF_UPS_INPUTVOLTAGE": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "UPS输入电压",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "V"
+      }
+    }
+  },
+  "WS_JF.WS_JF_UPS_OUTPUTVOLTAGE": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "UPS输出电压",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "V"
+      }
+    }
+  },
+  "WS_JF.WS_JF_TEMPERATURE_1": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房温度1",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "℃"
+      }
+    }
+  },
+  "WS_JF.WS_JF_TEMPERATURE_2": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房温度2",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "℃"
+      }
+    }
+  },
+  "WS_JF.WS_JF_HUMIDITY_1": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房湿度1",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "%"
+      }
+    }
+  },
+  "WS_JF.WS_JF_HUMIDITY_2": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": "机房湿度2",
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 2,
+    "unit": {
+      "i18n": {
+        "zh-cn": "%"
+      }
+    }
   }
 }
