@@ -82,7 +82,7 @@
     "scope": "workshop1",
     "mixins": {
       "Lookup": {
-        "class": "{Test01}computer_root",
+        "class": "{Test01}computer_room",
         "equipment": "computer_room_ws",
         "workshop": "workshop1"
       }

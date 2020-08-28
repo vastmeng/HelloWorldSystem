@@ -21,6 +21,17 @@ spec:
   class: Furnace_Blast
   fields:
   - category: []
+    default_value: '0'
+    name: Name
+    type: string
+  name: Basic
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: Furnace_Blast
+  fields:
+  - category: []
     index: true
     name: workshop
     type: string
@@ -30,17 +41,6 @@ spec:
     type: string
   kind: lookup
   name: Lookup
----
-apiVersion: thingswise.com/v1
-kind: primaryDataDomain
-spec:
-  class: Furnace_Blast
-  fields:
-  - category: []
-    default_value: '0'
-    name: Name
-    type: string
-  name: Basic
 ---
 apiVersion: thingswise.com/v1
 kind: operationalDataDomain

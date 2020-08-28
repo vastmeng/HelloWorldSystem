@@ -5,7 +5,7 @@ metadata:
   label:
     i18n: {zh-CN: 计算机机房}
 spec:
-  class: computer_root
+  class: computer_room
   key: equipment
   lookups:
   - {lookup_domain: Lookup, lookup_field: equipment, name: default}
@@ -18,7 +18,14 @@ spec:
 apiVersion: thingswise.com/v1
 kind: primaryDataDomain
 spec:
-  class: computer_root
+  class: computer_room
+  fields: []
+  name: Basic
+---
+apiVersion: thingswise.com/v1
+kind: primaryDataDomain
+spec:
+  class: computer_room
   fields:
   - category: []
     index: true
@@ -32,16 +39,9 @@ spec:
   name: Lookup
 ---
 apiVersion: thingswise.com/v1
-kind: primaryDataDomain
-spec:
-  class: computer_root
-  fields: []
-  name: Basic
----
-apiVersion: thingswise.com/v1
 kind: operationalDataDomain
 spec:
-  class: computer_root
+  class: computer_room
   fields:
   - aggregated: false
     category: []

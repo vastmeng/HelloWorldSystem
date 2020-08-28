@@ -23,7 +23,7 @@
       ],
       "models": [
         "{Test01}Furnace_Blast",
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ]
     }
   ],
@@ -219,7 +219,7 @@
       "tags": [],
       "timezone": "Asia/Shanghai"
     },
-    "{Test01}computer_root": {
+    "{Test01}computer_room": {
       "key": "equipment",
       "label": {
         "i18n": {
@@ -487,14 +487,14 @@
               }
             }
           ],
-          "mangled_name": "Test01___computer_root__WS_JF"
+          "mangled_name": "Test01___computer_room__WS_JF"
         }
       },
       "primary_domains": {
         "Basic": {
           "fields": [],
           "kind": "metadata",
-          "mangled_name": "Test01___computer_root__Basic"
+          "mangled_name": "Test01___computer_room__Basic"
         },
         "Lookup": {
           "fields": [

@@ -7,7 +7,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -50,7 +50,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -93,7 +93,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -136,7 +136,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -179,7 +179,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -222,7 +222,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -265,7 +265,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -308,7 +308,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {
@@ -351,7 +351,7 @@
         "workshop|equipment"
       ],
       "model": [
-        "{Test01}computer_root"
+        "{Test01}computer_room"
       ],
       "name": {
         "i18n": {

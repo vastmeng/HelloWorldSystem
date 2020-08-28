@@ -1,12 +1,12 @@
 collate_search: false
 mixins:
+- name: Test01___Furnace_Blast__Basic
 - fields:
     class: string
     equipment: string
     workshop: string
   name: Lookup
-- name: Test01___Furnace_Blast__Basic
 - name: Test01___Furnace_Blast__lufu
-- name: Test01___computer_root__Basic
-- name: Test01___computer_root__WS_JF
+- name: Test01___computer_room__Basic
+- name: Test01___computer_room__WS_JF
 - name: Test01___workshop__Basic

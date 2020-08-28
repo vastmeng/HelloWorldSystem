@@ -11,15 +11,15 @@
       "type": "json"
     }
   },
-  "{Test01}computer_root": {
-    "Test01___computer_root.WS_JF_input_csv": {
+  "{Test01}computer_room": {
+    "Test01___computer_room.WS_JF_input_csv": {
       "domain": "WS_JF",
-      "stream": "Test01___computer_root.WS_JF_input",
+      "stream": "Test01___computer_room.WS_JF_input",
       "type": "csv"
     },
-    "Test01___computer_root.WS_JF_input_json": {
+    "Test01___computer_room.WS_JF_input_json": {
       "domain": "WS_JF",
-      "stream": "Test01___computer_root.WS_JF_input",
+      "stream": "Test01___computer_room.WS_JF_input",
       "type": "json"
     }
   }

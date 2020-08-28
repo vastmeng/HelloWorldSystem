@@ -28,7 +28,7 @@
       },
       "class": [
         {
-          "fqn": "{Test01}computer_root",
+          "fqn": "{Test01}computer_room",
           "i18n": {
             "zh-CN": "计算机机房"
           }
